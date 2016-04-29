@@ -98,7 +98,7 @@ for i in xrange(lenbook3):
     tartime=datetime.datetime(nowtime.year, nowtime.month, nowtime.day, hour=int(tar2[0]), minute=int(tar2[1]),second=00,microsecond=00)
 
     if tartime >= nowtime:
-        message += "\n次の学生会館行きのバスは"+tartime.strftime("%H:%M")
+        message += "\n次の学生会館行きのバスは"+tartime.strftime("%H:%M")+"から出発します．"
         output3=True
         break
     elif tartime == nowtime:
